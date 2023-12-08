@@ -1,6 +1,12 @@
+import Hero from './hero';
+
 const Homepage = () => {
     return(
-        <div></div>
+        <div className="bg-black min-h-screen">
+            <div>
+                <Hero/>
+            </div>
+        </div>
     )
 }
 
